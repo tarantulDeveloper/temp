@@ -1,12 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
 import MyFooter from "./components/MyFooter";
+import Pyt from "./components/Pyt";
 
 function App() {
   const myArray = [1,2,3]
   return (
     <div className="App">
       <header className="App-header">
+        <Pyt />ghghg
+        jgjhgjhgjhh
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
