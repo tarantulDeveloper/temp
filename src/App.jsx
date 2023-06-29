@@ -1,7 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import MyFooter from "./components/MyFooter";
 
 function App() {
+  const myArray = [1,2,3]
   return (
     <div className="App">
       <header className="App-header">
@@ -17,7 +19,13 @@ function App() {
         >
           Learn React
         </a>
+        <h1>Hello world</h1>
       </header>
+      {
+        myArray.map((n) => (
+          <MyFooter number={n}/>
+        ))
+      }
     </div>
   );
 }
